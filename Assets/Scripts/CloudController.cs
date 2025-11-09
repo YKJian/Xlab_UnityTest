@@ -19,7 +19,7 @@ public class CloudController : MonoBehaviour
     {
         m_index++;
 
-        // Cycle
+        // Cycle movement
         if (m_index >= m_people.Length)
         {
             m_index = 0;
