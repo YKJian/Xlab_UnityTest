@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7095406947868411221}
   - component: {fileID: 4222856980631413201}
   - component: {fileID: 460025144105060442}
+  - component: {fileID: -8602988464478009066}
   - component: {fileID: -8949816410077165176}
   - component: {fileID: 8723269630178568999}
   m_Layer: 0
@@ -91,6 +92,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-8602988464478009066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7971252335178518345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b92939cf53ad641978e21469207659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Golf.Stone
+  m_clubLayerMask: 7
 --- !u!54 &-8949816410077165176
 Rigidbody:
   m_ObjectHideFlags: 0
