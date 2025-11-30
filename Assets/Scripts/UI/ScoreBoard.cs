@@ -25,6 +25,7 @@ namespace Golf
 
         private void OnEnable()
         {
+            m_scoreBoard.SetActive(false);
             UpdateRecentScores();
             m_scoreBoardButton.onClick.AddListener(OnClicked);
         }
