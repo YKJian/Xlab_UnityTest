@@ -24,6 +24,8 @@ namespace Golf
 
         protected virtual void OnCollisionEnter(Collision collision)
         {
+            ChangeDrag(0f);
+
             if (collision.gameObject.GetComponent<Club>())
             {
                 Hit?.Invoke(this);
@@ -36,5 +38,8 @@ namespace Golf
 
         public void AddForce(Vector3 power) =>
             m_rigidbody.AddForce(power, ForceMode.Force);
+
+        public void ChangeDrag(float drag) =>
+            m_rigidbody.linearDamping = drag;
     }
 }

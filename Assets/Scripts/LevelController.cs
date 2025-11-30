@@ -80,5 +80,7 @@ namespace Golf
             }
             m_stones.Clear();
         }
+
+        public List<Stone> GetStones() => m_stones;
     }
 }
