@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba8a51918b562b0489212ed7f71d0bae, type: 3}
-  m_Name: Stone Data 2
+  m_Name: Golden Stone Data 4
   m_EditorClassIdentifier: Assembly-CSharp::Golf.StoneData
-  m_score: 2
+  m_score: 10
